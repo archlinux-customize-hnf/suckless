@@ -69,10 +69,10 @@ static const struct arg args[] = {
 	{ cpu_perc, " 🧠 %s%% | ",  NULL },
 	{ disk_perc,"💾 %s%% | ",   "/" },
 	{ ram_used, "🧬 %sB | ",    NULL },
-	{ netspeed_rx,"📥 %sB/s  ", "enp7s0" },
+	/* { netspeed_rx,"📥 %sB/s  ", "enp7s0" },
 	{ netspeed_tx,"📤 %sB/s | ","enp7s0" },
 	{ netspeed_rx,"📉 %sB/s  ", "wlp0s20f3" },
-	{ netspeed_tx,"📈 %sB/s | ","wlp0s20f3" },
+	{ netspeed_tx,"📈 %sB/s | ","wlp0s20f3" }, */
 	{ temp,     "🌡 %s°C | ",   "/sys/class/thermal/thermal_zone0/temp"},
 	{ datetime, "📆 %s ",       "%F %H:%M" },
 };
